@@ -15,8 +15,7 @@ VLM-CASE gives an autonomous vehicle anticipatory, human-like caution under adve
 | `scenarios/` | Definitions of all 66 evaluation scenarios: experiment configs, per-town scenario conditions, and lead-vehicle profiles |
 | `results/tables/` | Aggregated results (CSV) behind every table in the paper |
 | `results/figures/` | The result figures of the paper (PDF and PNG) |
-| `results/detailed/` | Comprehensive per-experiment results beyond the paper: per-scenario aggregate tables, time–space diagrams, speed and lateral-error profiles, following-gap traces, outcome bars, per-field VLM accuracy, and cross-experiment summaries |
-| `videos/` | Representative closed-loop recordings of the proposed controller |
+| `gifs/` | Representative closed-loop recordings of the proposed controller |
 
 ## Dataset
 
@@ -38,9 +37,16 @@ Each scenario is defined by a map (Town03 urban, 40–60 km/h; Town04 highway, 7
 
 On the integrated lead-braking test, VLM-CASE-MPC completes **54/54 runs (100%)**, against 81.5% for a non-adaptive envelope, 75.9% for a state-of-the-art VLM-integrated controller, and 51.9% for a base MPC. Full per-condition results are in `results/tables/`.
 
-## Videos
+## Demonstrations
 
-`videos/` contains closed-loop recordings of the proposed controller in the lead-braking group at the top speed of each map (Town03 at 60 km/h, Town04 at 90 km/h) under C1–C3. The complete set of recordings is available on request.
+Closed-loop recordings of the proposed controller in the lead-braking group at the top speed of each map (Town03 at 60 km/h, Town04 at 90 km/h) under the three compound conditions. The complete set of full-resolution recordings is available on request.
+
+| C1 dry, clear day | C2 wet, heavy rain, night | C3 snow, clear night |
+|---|---|---|
+| ![Town03 C1](gifs/Town03_C1_nominal.gif) | ![Town03 C2](gifs/Town03_C2_moderate_adverse.gif) | ![Town03 C3](gifs/Town03_C3_severe_adverse.gif) |
+| ![Town04 C1](gifs/Town04_C1_nominal.gif) | ![Town04 C2](gifs/Town04_C2_moderate_adverse.gif) | ![Town04 C3](gifs/Town04_C3_severe_adverse.gif) |
+
+*Top row: Town03 (urban, 60 km/h). Bottom row: Town04 (highway, 90 km/h).*
 
 ## Code release
 

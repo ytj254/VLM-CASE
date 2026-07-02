@@ -1,4 +1,0 @@
-Experiment,Mean Latency (ms),Calls / 100 steps,Deadline Miss (%),Active Step (%)
-No Lead,1240.9,2.5,0.0%,97.4%
-Constant Lead,1301.5,2.5,0.0%,96.7%
-Lead Brake,2635.6,1.8,100.0%,91.3%

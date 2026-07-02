@@ -1,4 +1,0 @@
-Scenario,Road Surface (%),Weather (%),Time of Day (%),Illumination (%),Overall (%)
-N1 Dry,100.0%,100.0%,100.0%,100.0%,100.0%
-N2 Wet,99.7%,97.6%,100.0%,0.0%,0.0%
-N3 Snow/Slush,99.8%,100.0%,100.0%,100.0%,99.8%

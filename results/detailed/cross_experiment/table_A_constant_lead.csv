@@ -1,6 +1,0 @@
-Scenario,Road Surface (%),Weather (%),Time of Day (%),Illumination (%),Overall (%)
-L1 Clear Day,100.0%,100.0%,100.0%,100.0%,100.0%
-L2 Fog Day,100.0%,100.0%,100.0%,100.0%,100.0%
-L3 Night Strong,92.2%,100.0%,100.0%,100.0%,92.2%
-L4 Night Weak,95.8%,100.0%,100.0%,100.0%,95.8%
-L5 Night None,98.9%,100.0%,100.0%,100.0%,98.9%
