@@ -1,0 +1,59 @@
+{
+  "description": "VLM-RSS-MPC lead-braking experiment scenarios. physical_road_surface is simulator truth and is independent of VLM output.",
+  "scenarios": [
+    {
+      "scenario_id": "C1_nominal",
+      "difficulty": "C1_nominal",
+      "town": "Town04",
+      "weather": "Clear",
+      "lighting_time": "Noon",
+      "streetlight": "off",
+      "vehicle_light": "off",
+      "road_geom": "curved",
+      "physical_road_surface": "dry",
+      "expected_context": {
+        "road_surface": "dry",
+        "weather": "clear",
+        "time_of_day": "day",
+        "illumination_assistance": "none"
+      },
+      "image_postprocess": null
+    },
+    {
+      "scenario_id": "C2_moderate_adverse",
+      "difficulty": "C2_moderate_adverse",
+      "town": "Town04",
+      "weather": "HardRain",
+      "lighting_time": "Night",
+      "streetlight": "off",
+      "vehicle_light": "high",
+      "road_geom": "curved",
+      "physical_road_surface": "wet",
+      "expected_context": {
+        "road_surface": "wet",
+        "weather": "heavy_rain",
+        "time_of_day": "night",
+        "illumination_assistance": "partial"
+      },
+      "image_postprocess": null
+    },
+    {
+      "scenario_id": "C3_severe_adverse",
+      "difficulty": "C3_severe_adverse",
+      "town": "Town04",
+      "weather": "Clear",
+      "lighting_time": "Night",
+      "streetlight": "on",
+      "vehicle_light": "high",
+      "road_geom": "curved",
+      "physical_road_surface": "snow_slush",
+      "expected_context": {
+        "road_surface": "snow_slush",
+        "weather": "clear",
+        "time_of_day": "night",
+        "illumination_assistance": "strong"
+      },
+      "image_postprocess": "snow_slush"
+    }
+  ]
+}

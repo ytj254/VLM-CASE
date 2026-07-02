@@ -1,0 +1,12 @@
+Experiment,Scenario,Road Surface (%),Weather (%),Time of Day (%),Illumination (%),Overall (%)
+No Lead,N1 Dry,100.0%,100.0%,100.0%,100.0%,100.0%
+No Lead,N2 Wet,99.7%,97.6%,100.0%,0.0%,0.0%
+No Lead,N3 Snow/Slush,99.8%,100.0%,100.0%,100.0%,99.8%
+Constant Lead,L1 Clear Day,100.0%,100.0%,100.0%,100.0%,100.0%
+Constant Lead,L2 Fog Day,100.0%,100.0%,100.0%,100.0%,100.0%
+Constant Lead,L3 Night Strong,92.2%,100.0%,100.0%,100.0%,92.2%
+Constant Lead,L4 Night Weak,95.8%,100.0%,100.0%,100.0%,95.8%
+Constant Lead,L5 Night None,98.9%,100.0%,100.0%,100.0%,98.9%
+Lead Brake,C1 Nominal,100.0%,100.0%,100.0%,100.0%,100.0%
+Lead Brake,C2 Moderate Adverse,100.0%,96.4%,100.0%,97.9%,94.3%
+Lead Brake,C3 Severe Adverse,93.9%,100.0%,100.0%,98.6%,92.6%

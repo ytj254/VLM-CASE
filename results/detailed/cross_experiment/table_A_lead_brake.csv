@@ -1,0 +1,4 @@
+Scenario,Road Surface (%),Weather (%),Time of Day (%),Illumination (%),Overall (%)
+C1 Nominal,100.0%,100.0%,100.0%,100.0%,100.0%
+C2 Moderate Adverse,100.0%,96.4%,100.0%,97.9%,94.3%
+C3 Severe Adverse,93.9%,100.0%,100.0%,98.6%,92.6%

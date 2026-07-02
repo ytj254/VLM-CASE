@@ -1,0 +1,95 @@
+{
+  "description": "Constant-speed lead context-adaptation scenarios for Town03.",
+  "scenarios": [
+    {
+      "scenario_id": "L1_clear_day",
+      "difficulty": "L1_clear_day",
+      "town": "Town03",
+      "weather": "Clear",
+      "lighting_time": "Noon",
+      "streetlight": "off",
+      "vehicle_light": "off",
+      "road_geom": "curved",
+      "physical_road_surface": "dry",
+      "expected_context": {
+        "road_surface": "dry",
+        "weather": "clear",
+        "time_of_day": "day",
+        "illumination_assistance": "none"
+      },
+      "image_postprocess": null
+    },
+    {
+      "scenario_id": "L2_fog_day",
+      "difficulty": "L2_fog_day",
+      "town": "Town03",
+      "weather": "HeavyFog",
+      "lighting_time": "Noon",
+      "streetlight": "off",
+      "vehicle_light": "off",
+      "road_geom": "curved",
+      "physical_road_surface": "dry",
+      "expected_context": {
+        "road_surface": "dry",
+        "weather": "dense_fog",
+        "time_of_day": "day",
+        "illumination_assistance": "none"
+      },
+      "image_postprocess": null
+    },
+    {
+      "scenario_id": "L3_clear_night_strong",
+      "difficulty": "L3_clear_night_strong",
+      "town": "Town03",
+      "weather": "Clear",
+      "lighting_time": "Night",
+      "streetlight": "on",
+      "vehicle_light": "high",
+      "road_geom": "curved",
+      "physical_road_surface": "dry",
+      "expected_context": {
+        "road_surface": "dry",
+        "weather": "clear",
+        "time_of_day": "night",
+        "illumination_assistance": "strong"
+      },
+      "image_postprocess": null
+    },
+    {
+      "scenario_id": "L4_clear_night_partial",
+      "difficulty": "L4_clear_night_partial",
+      "town": "Town03",
+      "weather": "Clear",
+      "lighting_time": "Night",
+      "streetlight": "off",
+      "vehicle_light": "low",
+      "road_geom": "curved",
+      "physical_road_surface": "dry",
+      "expected_context": {
+        "road_surface": "dry",
+        "weather": "clear",
+        "time_of_day": "night",
+        "illumination_assistance": "partial"
+      },
+      "image_postprocess": null
+    },
+    {
+      "scenario_id": "L5_clear_night_none",
+      "difficulty": "L5_clear_night_none",
+      "town": "Town03",
+      "weather": "Clear",
+      "lighting_time": "Night",
+      "streetlight": "off",
+      "vehicle_light": "off",
+      "road_geom": "curved",
+      "physical_road_surface": "dry",
+      "expected_context": {
+        "road_surface": "dry",
+        "weather": "clear",
+        "time_of_day": "night",
+        "illumination_assistance": "none"
+      },
+      "image_postprocess": null
+    }
+  ]
+}

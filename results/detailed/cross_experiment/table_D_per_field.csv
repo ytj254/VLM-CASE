@@ -1,0 +1,6 @@
+Field,No Lead | N1 Dry,No Lead | N2 Wet,No Lead | N3 Snow/Slush,Constant Lead | L1 Clear Day,Constant Lead | L2 Fog Day,Constant Lead | L3 Night Strong,Constant Lead | L4 Night Weak,Constant Lead | L5 Night None,Lead Brake | C1 Nominal,Lead Brake | C2 Moderate Adverse,Lead Brake | C3 Severe Adverse
+Road Surface (%),100.0%,99.7%,99.8%,100.0%,100.0%,92.2%,95.8%,98.9%,100.0%,100.0%,93.9%
+Weather (%),100.0%,97.6%,100.0%,100.0%,100.0%,100.0%,100.0%,100.0%,100.0%,96.4%,100.0%
+Time of Day (%),100.0%,100.0%,100.0%,100.0%,100.0%,100.0%,100.0%,100.0%,100.0%,100.0%,100.0%
+Illumination (%),100.0%,0.0%,100.0%,100.0%,100.0%,100.0%,100.0%,100.0%,100.0%,97.9%,98.6%
+Overall (%),100.0%,0.0%,99.8%,100.0%,100.0%,92.2%,95.8%,98.9%,100.0%,94.3%,92.6%

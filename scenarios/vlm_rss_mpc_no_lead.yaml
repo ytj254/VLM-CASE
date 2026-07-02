@@ -1,0 +1,35 @@
+maps:
+  town03:
+    carla_config: configs/carla/town03.yaml
+    scenario_file: configs/experiments/scenarios/town03_no_lead_context.json
+    target_speed_kph_list: [40.0, 50.0, 60.0]
+  town04:
+    carla_config: configs/carla/town04.yaml
+    scenario_file: configs/experiments/scenarios/town04_no_lead_context.json
+    target_speed_kph_list: [70.0, 80.0, 90.0]
+
+rss_mpc_config: configs/control/mpc_rss_no_lead.yaml
+episodes_per_scenario: 3  # applied only when run_profile is analysis; validation always uses 1
+
+context_sweep:
+  key: mu
+  values: [0.2, 0.4, 0.8]
+
+env_overrides:
+  # --- run parameters ---
+  track_speed_limit: false
+  tire_friction_source: scenario_mu
+  tire_friction_from_controller_mu: false
+  tire_friction_lookup_path: configs/carla/mu_to_friction_scale.yaml
+  tire_friction_scale: 1.0
+  perception_lane_source: gt
+  controller_lane_source: gt
+  # --- runtime mode ---
+  # analysis: disable image postprocess + stream, no timing prints (fast result collection)
+  #           --vlm-context keeps image postprocess enabled for context inference
+  # validation: enable image postprocess + stream, timing prints on (pipeline inspection)
+  run_profile: analysis
+  # --- stream visualization, optional with analysis mode ---
+  live_view: false
+  stream_view: false
+  stream_jpeg_quality: 60

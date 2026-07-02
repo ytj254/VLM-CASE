@@ -1,0 +1,18 @@
+virtual_lead:
+  valid: 1.0
+  mode: actor
+  initial_spacing_m: 30.0
+  profile: schedule_percentage
+  constant_speed_kph: 70.0
+  vehicle_filter: same_as_ego
+  lookahead_m: 8.0
+  wheelbase_m: 2.8
+  steer_gain: 1.0
+  max_steer_norm: 0.6
+  max_throttle: 1.0
+  max_brake: 1.0
+  max_accel_mps2: 4.0
+  max_brake_mps2: 6.0
+  route_step_m: 2.0
+  schedule_progress: [0.0, 0.40]
+  schedule_speed_kph: [70.0, 0.0]
