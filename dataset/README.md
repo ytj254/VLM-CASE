@@ -13,4 +13,4 @@ Snow surfaces are produced by overlaying a snow/slush texture on the road (CARLA
 
 **Splits:** 8,448 train / 1,056 validation / 1,056 test, stratified over the joint distribution of the four fields.
 
-**Download:** _link to be added_. The archive contains the frames plus JSONL label files (one record per frame: image path and the four fields).
+**Download:** [ytj254/VLM-CASE_carla_dataset](https://huggingface.co/datasets/ytj254/VLM-CASE_carla_dataset) on Hugging Face. The dataset contains the frames plus JSONL label files (one record per frame: image path and the four fields).

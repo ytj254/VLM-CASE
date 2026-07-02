@@ -4,7 +4,6 @@ Supplementary materials for the paper:
 
 > **VLM-CASE: vision-language model enabled context-adaptive safety envelopes for anticipatory safe autonomous driving**
 > Tianjia Yang, Ruwen Qin, Xianbiao Hu
-> *Preprint, 2026 (arXiv link coming soon).*
 
 VLM-CASE gives an autonomous vehicle anticipatory, human-like caution under adverse driving conditions: a fine-tuned vision-language model (VLM) reasons about the driving scene from the front camera and parametrizes a context-adaptive safety envelope (CASE), a formally grounded admissible action set that couples braking and steering through a shared friction budget and widens the following margin as visibility degrades. A model predictive controller then drives freely within the envelope.
 
@@ -23,7 +22,7 @@ VLM-CASE gives an autonomous vehicle anticipatory, human-like caution under adve
 
 The dataset comprises 10,560 front-camera frames (1280×720) collected in CARLA across three road surfaces (dry, wet, snow), three weather types (clear, heavy rain, dense fog), day/night, and three illumination-assistance levels, each labeled with the four scene-context fields. Splits: 8,448 train / 1,056 validation / 1,056 test, stratified over the joint label distribution.
 
-**Download:** _link to be added (hosted on Hugging Face / Zenodo)_. See `dataset/README.md` for the label schema.
+**Download:** [ytj254/VLM-CASE_carla_dataset](https://huggingface.co/datasets/ytj254/VLM-CASE_carla_dataset) on Hugging Face. See `dataset/README.md` for the label schema.
 
 ## Evaluation scenarios
 
@@ -45,7 +44,7 @@ On the integrated lead-braking test, VLM-CASE-MPC completes **54/54 runs (100%)*
 
 ## Code release
 
-The implementation code (safety envelope, VLM inference, LoRA fine-tuning, and the closed-loop CARLA pipeline) will be released here upon acceptance of the paper.
+The implementation code (safety envelope, VLM inference, LoRA fine-tuning, and the closed-loop CARLA pipeline) will be released here in a future update.
 
 ## Citation
 
@@ -53,8 +52,7 @@ The implementation code (safety envelope, VLM inference, LoRA fine-tuning, and t
 @misc{yang2026vlmcase,
   title  = {VLM-CASE: vision-language model enabled context-adaptive safety envelopes for anticipatory safe autonomous driving},
   author = {Yang, Tianjia and Qin, Ruwen and Hu, Xianbiao},
-  year   = {2026},
-  note   = {arXiv preprint, link coming soon}
+  year   = {2026}
 }
 ```
 
