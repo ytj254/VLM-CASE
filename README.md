@@ -35,7 +35,7 @@ Each scenario is defined by a map (Town03 urban, 40–60 km/h; Town04 highway, 7
 
 ## Headline results
 
-On the integrated lead-braking test, VLM-CASE-MPC completes **54/54 runs (100%)**, against 81.5% for a non-adaptive envelope, 75.9% for a state-of-the-art VLM-integrated controller, and 51.9% for a base MPC. Full per-condition results are in `results/tables/`.
+On the integrated lead-braking test, VLM-CASE-MPC completes **54/54 runs (100%)**, against 81.5% for a non-adaptive envelope, 75.9% for a state-of-the-art VLM-integrated controller, and 51.9% for a base MPC. Full per-condition results are in `results/tables/`. In the tables, min clearance is the smallest lateral margin between the vehicle edge and the lane edge over a run (negative means the lane boundary was crossed); values are mean ± std over runs.
 
 ## Demonstrations
 
