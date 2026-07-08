@@ -4,6 +4,10 @@ Supplementary materials for the paper:
 
 > **VLM-CASE: vision-language model enabled context-adaptive safety envelopes for anticipatory safe autonomous driving**
 > Tianjia Yang, Ke Li, Ruwen Qin, Xianbiao Hu
+>
+> [![arXiv](https://img.shields.io/badge/arXiv-2607.05180-b31b1b.svg)](https://arxiv.org/abs/2607.05180)
+
+Preprint: [arXiv:2607.05180](https://arxiv.org/abs/2607.05180)
 
 VLM-CASE gives an autonomous vehicle anticipatory, human-like caution under adverse driving conditions: a fine-tuned vision-language model (VLM) reasons about the driving scene from the front camera and parametrizes a context-adaptive safety envelope (CASE), a formally grounded admissible action set that couples braking and steering through a shared friction budget and widens the following margin as visibility degrades. A model predictive controller then drives freely within the envelope.
 
@@ -56,12 +60,4 @@ The implementation code (safety envelope, VLM inference, LoRA fine-tuning, and t
 
 ```bibtex
 @misc{yang2026vlmcase,
-  title  = {VLM-CASE: vision-language model enabled context-adaptive safety envelopes for anticipatory safe autonomous driving},
-  author = {Yang, Tianjia and Li, Ke and Qin, Ruwen and Hu, Xianbiao},
-  year   = {2026}
-}
-```
-
-## License
-
-Data, figures, and videos are released under CC-BY-4.0.
+  title         = {VLM-CASE: vision-language model enabled context-adaptive safety envelopes for anticipatory safe autonom
