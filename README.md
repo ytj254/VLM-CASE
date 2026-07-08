@@ -60,4 +60,18 @@ The implementation code (safety envelope, VLM inference, LoRA fine-tuning, and t
 
 ```bibtex
 @misc{yang2026vlmcase,
-  title         = {VLM-CASE: vision-language model enabled context-adaptive safety envelopes for anticipatory safe autonom
+  title  = {VLM-CASE: Vision-Language Model Enabled Context-Adaptive
+            Safety Envelopes for Anticipatory Safe Autonomous Driving},
+  author = {Yang, Tianjia and Li, Ke and Qin, Ruwen and Hu, Xianbiao},
+  year   = {2026},
+  eprint = {2607.05180},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  doi    = {10.48550/arXiv.2607.05180},
+  url    = {https://arxiv.org/abs/2607.05180}
+}
+```
+
+## License
+
+Data, figures, and videos are released under CC-BY-4.0.
